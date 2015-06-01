@@ -1,0 +1,27 @@
+body {
+  background-image: url("../images/background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: right;
+  background-size: 80%;
+  background-align: right;
+  background-color: brown;
+
+}
+
+#show-city {
+  display:none;
+}
+
+#show-list {
+  display:none;
+}
+
+.city {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.city:hover {
+  text-decoration: underline;
+}
